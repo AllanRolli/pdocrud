@@ -22,7 +22,7 @@ include ("Class/ClassCrud.php");
                     <td><?php echo $Fetch['Cidade']; ?></td>
                     <td>
                         <a href="<?php echo "visualizar.php?id={$Fetch['id']}"; ?>"><img src="Images/visualizar.png" alt="Visualizar"></a>
-                        <a href="atualizacao.php"><img src="Images/editar.png" alt="Editar"></a>
+                        <a href="<?php echo "cadastro.php?id={$Fetch['id']}"; ?>"><img src="Images/editar.png" alt="Editar"></a>
                         <a class="Deletar" href="<?php echo "Controllers/ControllerDeletar.php?id={$Fetch['id']}"; ?>"><img src="Images/deletar.png" alt="Deletar"></a>
                     </td>
                 </tr>

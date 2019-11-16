@@ -1,0 +1,23 @@
+.TabelaCrud {
+    width: 100%;
+    text-align: center;
+}
+
+.TabelaCrud tr:nth-child(2n -1){
+    background: #CCC;
+}
+
+.TabelaCrud tr:first-child{
+    background: #000;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.TabelaCrud td{
+   width: 25%;
+}
+
+a{
+    width: 100px;
+}

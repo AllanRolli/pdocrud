@@ -5,4 +5,4 @@ include("../Class/ClassCrud.php");
 $Crud = new ClassCrud();
 $Crud->insertDB("cadastro","?,?,?,?",array($Id, $Nome, $Sexo, $Cidade));
 
-echo "Cadastro Feito";
+echo "Cadastro Realizado com Sucesso";

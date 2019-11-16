@@ -23,7 +23,7 @@ include ("Class/ClassCrud.php");
                     <td>
                         <a href="<?php echo "visualizar.php?id={$Fetch['id']}"; ?>"><img src="Images/visualizar.png" alt="Visualizar"></a>
                         <a href="atualizacao.php"><img src="Images/editar.png" alt="Editar"></a>
-                        <a href="delete.php"><img src="Images/deletar.png" alt="Deletar"></a>
+                        <a class="Deletar" href="<?php echo "Controllers/ControllerDeletar.php?id={$Fetch['id']}"; ?>"><img src="Images/deletar.png" alt="Deletar"></a>
                     </td>
                 </tr>
             <?php
@@ -33,5 +33,6 @@ include ("Class/ClassCrud.php");
 
         </table>
     </div>
-
+    <script src="Includes/zepto.min.js"></script>
+    <script src="Javascript.js"></script>
 <?php include ("Includes/Footer.php");?>
